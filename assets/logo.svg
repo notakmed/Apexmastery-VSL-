@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 60" fill="none">
+  <defs>
+    <mask id="cutout">
+      <rect x="0" y="0" width="70" height="70" fill="white" />
+      <path d="M-10 20 Q 25 35 70 15 L 70 25 Q 25 45 -10 30 Z" fill="black" stroke="black" stroke-width="2"/>
+      <path d="M-10 35 Q 25 50 70 30 L 70 40 Q 25 60 -10 45 Z" fill="black" stroke="black" stroke-width="2"/>
+    </mask>
+  </defs>
+
+  <!-- Shield -->
+  <path d="M10 5 H50 L50 20 Q 30 55 10 20 Z" fill="#ffffff" mask="url(#cutout)" />
+
+  <!-- Text -->
+  <text x="70" y="38" font-family="'Playfair Display', serif" font-size="28" font-weight="400" letter-spacing="2" fill="#ffffff">APEX MASTERY</text>
+</svg>

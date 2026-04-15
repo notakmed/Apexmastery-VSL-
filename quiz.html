@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subconscious Success Test | Apex Mastery</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* Inline override for quiz focus mode */
+        body {
+            overflow-x: hidden;
+        }
+
+        .nav {
+            justify-content: center;
+        }
+
+        .nav-logo {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- AMBIENT BACKGROUND -->
+    <div class="ambient-bg">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="particle p-1"></div>
+        <div class="particle p-2"></div>
+        <div class="particle p-3"></div>
+    </div>
+    <div class="noise-overlay"></div>
+    <div class="grid-lines"></div>
+
+    <!-- MINIMAL NAV -->
+    <nav class="nav">
+        <div class="nav-logo">
+            <a href="index.html"><img src="assets/logo-new.png" alt="Apex Mastery" /></a>
+        </div>
+    </nav>
+
+    <!-- QUIZ CONTAINER -->
+    <div class="quiz-container">
+
+        <!-- PROGRESS BAR -->
+        <div class="quiz-progress-wrapper">
+            <div class="quiz-progress-bar" id="quizProgress"></div>
+        </div>
+
+        <!-- LANDING VIEW -->
+        <div id="quizLanding" class="quiz-step active">
+            <h1 class="quiz-headline">Discover The Hidden Subconscious Block Keeping You <span
+                    class="highlight">Stuck</span> At The Same Income</h1>
+            <p class="quiz-subheadline">Take our free 5-minute Subconscious Success Test and we'll reveal exactly which
+                money beliefs are sabotaging your growth—and the fastest path to reprogram them.</p>
+
+            <div class="quiz-benefits">
+                <div class="benefit-item">✓ Identify your self-image ceiling</div>
+                <div class="benefit-item">✓ Get a personalized roadmap</div>
+                <div class="benefit-item">✓ 100% confidential</div>
+            </div>
+
+            <button class="btn-primary-test btn-large" id="startQuizBtn">
+                Start Your Free Assessment <span class="btn-arrow">→</span>
+            </button>
+
+            <div class="trust-badges" style="margin-top: 32px;">
+                <span>🔒 Secure & Confidential</span>
+                <span class="divider">|</span>
+                <span>⏱️ Takes 5 Minutes</span>
+            </div>
+        </div>
+
+        <!-- QUESTION VIEW -->
+        <div id="quizQuestion" class="quiz-step">
+            <button id="prevBtn" class="quiz-back-btn" style="display: none;">← Back</button>
+            <div class="question-count">Question <span id="currentQuestionNum">1</span> of 12</div>
+            <h2 id="questionText" class="question-text">Question goes here...</h2>
+            <div id="optionsContainer" class="options-container">
+                <!-- Options injected via JS -->
+            </div>
+        </div>
+
+        <!-- EMAIL CAPTURE VIEW -->
+        <div id="quizEmail" class="quiz-step">
+            <h2 class="quiz-headline">Your Assessment Is Complete</h2>
+            <p class="quiz-subheadline">Enter your email to get your personalized Subconscious Success Test results +
+                custom breakthrough roadmap.</p>
+
+            <form id="emailForm" class="email-form">
+                <div class="form-group">
+                    <input type="text" id="firstName" placeholder="First Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Email Address" required>
+                </div>
+                <button type="submit" class="btn-primary-test btn-large" style="width: 100%; justify-content: center;">
+                    Get My Results <span class="btn-arrow">→</span>
+                </button>
+            </form>
+
+            <p class="disclaimer" style="margin-top: 24px;">Your information is 100% confidential. We'll never share or
+                sell your data.</p>
+        </div>
+
+        <!-- RESULTS VIEW -->
+        <div id="quizResult" class="quiz-step">
+            <!-- Dynamic Result Content Injected Here -->
+        </div>
+
+    </div>
+
+    <script src="js/quiz.js"></script>
+</body>
+
+</html>
