@@ -263,7 +263,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </p>
         
         <!-- Booking Embed -->
-        <iframe src="https://link.apexmasterymembers.com/widget/booking/WHCA39KySFSxmTvQKN6f" style="width: 100%;border:none;overflow: hidden;" scrolling="no" id="WHCA39KySFSxmTvQKN6f_1776979147857"></iframe><br><script src="https://link.apexmasterymembers.com/js/form_embed.js" type="text/javascript"></script>
+        <iframe src="https://link.apexmasterymembers.com/widget/booking/WHCA39KySFSxmTvQKN6f" style="width: 100%; height: 700px; border:none; overflow: hidden;" scrolling="no" id="WHCA39KySFSxmTvQKN6f_1776979147857"></iframe><br><script src="https://link.apexmasterymembers.com/js/form_embed.js" type="text/javascript"></script>
         
         <div class="trust-badges">
            <span>🔒 100% Confidential</span>
