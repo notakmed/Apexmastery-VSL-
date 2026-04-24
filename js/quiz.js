@@ -262,12 +262,8 @@ document.addEventListener('DOMContentLoaded', () => {
           <strong>No pitch. No pressure. Just clarity on your next steps.</strong>
         </p>
         
-        <!-- Calendly Inline Widget -->
-        <div class="calendly-inline-widget" 
-             data-url="https://calendly.com/YOUR_CALENDLY_LINK?hide_gdpr_banner=1&primary_color=d4a853"
-             style="min-width:320px;height:700px;">
-        </div>
-        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        <!-- Booking Embed -->
+        <iframe src="https://link.apexmasterymembers.com/widget/booking/WHCA39KySFSxmTvQKN6f" style="width: 100%;border:none;overflow: hidden;" scrolling="no" id="WHCA39KySFSxmTvQKN6f_1776979147857"></iframe><br><script src="https://link.apexmasterymembers.com/js/form_embed.js" type="text/javascript"></script>
         
         <div class="trust-badges">
            <span>🔒 100% Confidential</span>
